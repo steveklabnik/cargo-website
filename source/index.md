@@ -10,16 +10,16 @@ simple one to get you started.
 ```toml
 [package]
 
-name = "hello-world"
+name = "hello_world"
 version = "0.1.0"
 authors = [ "wycats@example.com" ]
 
 [[bin]]
 
-name = "hello-world" # the name of the executable to generate
+name = "hello_world" # the name of the executable to generate
 ```
 
-Next, add `src/hello-world.rs` to your project.
+Next, add `src/hello_world.rs` to your project.
 
 ```rs
 fn main() {
@@ -31,10 +31,10 @@ And compile it:
 
 <pre><code class="highlight"><span class="gp">$</span> cargo build
 <span style="font-weight: bold"
-class="s1">   Compiling</span> hello-world v0.1.0</code></pre>
+class="s1">   Compiling</span> hello_world v0.1.0</code></pre>
 
 ```shell
-$ ./target/hello-world
+$ ./target/hello_world
 Hello world!
 ```
 
